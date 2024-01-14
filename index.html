@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Sheep - Memory</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.ico">
+</head>
+
+<body>
+    <main>
+        <section class="timer">
+            <p>
+                <span class="timer__minuti">00</span>
+                <span class="timer__secondi">00</span>
+            </p>
+        </section>
+
+        <section class="board">
+            <div class="carta" data-forma="Sheep1">
+                <img class="fronte" src="img/sheep-1.svg" alt="Sheep1">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep2">
+                <img class="fronte" src="img/sheep-2.svg" alt="Sheep2">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep3">
+                <img class="fronte" src="img/sheep-3.svg" alt="Sheep3">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep4">
+                <img class="fronte" src="img/sheep-4.svg" alt="Sheep4">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep5">
+                <img class="fronte" src="img/sheep-5.svg" alt="Sheep5">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep6">
+                <img class="fronte" src="img/sheep-6.svg" alt="Sheep6">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep1">
+                <img class="fronte" src="img/sheep-1.svg" alt="Sheep1">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep2">
+                <img class="fronte" src="img/sheep-2.svg" alt="Sheep2">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep3">
+                <img class="fronte" src="img/sheep-3.svg" alt="Sheep3">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep4">
+                <img class="fronte" src="img/sheep-4.svg" alt="Sheep4">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep5">
+                <img class="fronte" src="img/sheep-5.svg" alt="Sheep5">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+            <div class="carta" data-forma="Sheep6">
+                <img class="fronte" src="img/sheep-6.svg" alt="Sheep6">
+                <img class="retro" src="img/retro.jpg" alt="Carta">
+            </div>
+        </section>
+
+        <section class="classifica">
+            <button class="mostraClassifica">Mostra classifica</button>
+            <div class="classifica__container"></div>
+        </section>
+    </main>
+
+    <modal hidden>
+        <p>Congratulazioni! 🥳 Hai vinto</p>
+        <a href="https://open.spotify.com/intl-it/artist/4OSBrbW4IOFdBwEpQtFSXd?si=ffeRPcbaTAaZcFgWR7u2_w" target="_blank" rel="noopener noreferrer"><button class="presave">PRESAVE LINK!!!</button></a>
+        <br>
+        <button class="giocaDiNuovo">Gioca di nuovo</button>
+        <button class="salvaPartita">Salva la partita</button>
+    </modal>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
