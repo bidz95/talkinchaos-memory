@@ -14,8 +14,9 @@ main {
 }
 
 .board {
-    width: 640px;
-    height: 640px;
+    width: 100%;
+    max-width: 640px;
+    min-height: 640px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -23,8 +24,9 @@ main {
 }
 
 .carta {
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+    flex: 20%;
+    min-width: 120px;
+    min-height: 180px;
     margin: 5px;
     position: relative;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -32,7 +34,6 @@ main {
     transform-style: preserve-3d;
     transition: transform 0.5s;
     cursor: pointer;
-    min-height: 200px;
     border-radius: 5px;
     background-color: #bf9aca;
 }
@@ -133,7 +134,8 @@ body.vittoria::after {
 }
 
 .classifica {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     height: 100%;
     position: fixed;
     top: 0;
