@@ -25,8 +25,8 @@ main {
 
 .carta {
     flex: 20%;
-    min-width: 120px;
-    min-height: 180px;
+    min-width: 90px;
+    min-height: 160px;
     margin: 5px;
     position: relative;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
